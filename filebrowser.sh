@@ -109,7 +109,7 @@ WantedBy=multi-user.target
 	rm -rf /tmp/Filebrowser
 	rm -rf /tmp/Filebrowser.tar.gz
 }
-unistall() {
+uninstall() {
 	if [[ -f /usr/bin/filebrowser && -f /etc/filebrowser/filebrowser.json ]]; then
 		Filebrowser_pid=$(pgrep "filebrowser")
 		[ $Filebrowser_pid ] && systemctl stop filebrowser
@@ -147,7 +147,7 @@ while :; do
 		break
 		;;
 	2)
-		unistall
+		uninstall
 		break
 		;;
 	*)
