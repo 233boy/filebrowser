@@ -116,6 +116,7 @@ unistall() {
 		systemctl disable filebrowser >/dev/null 2>&1
 		rm -rf /usr/bin/filebrowser
 		rm -rf /etc/filebrowser
+		rm -rf /lib/systemd/system/filebrowser.service
 		echo -e " \n$green卸载完成...$none\n" && exit 1
 	else
 		echo -e " \n$red大胸弟...你貌似毛有安装 Filebrowser ....卸载个鸡鸡哦...$none\n" && exit 1
