@@ -30,6 +30,8 @@ if [[ $sys_bit == "i386" || $sys_bit == "i686" ]]; then
 	filebrowser="linux-386-filebrowser.tar.gz"
 elif [[ $sys_bit == "x86_64" ]]; then
 	filebrowser="linux-386-filebrowser.tar.gz"
+elif [[ $sys_bit == "arm64" ]]; then
+	filebrowser="linux-arm64-filebrowser.tar.gz"
 else
 	echo -e " \n$red毛支持你的系统....$none\n" && exit 1
 fi
