@@ -71,7 +71,7 @@ WantedBy=multi-user.target
     "baseURL": "",
     "address": "",
     "log": "stdout",
-    "database": "/etc/filebrowser/asdfasdf.db",
+    "database": "/etc/filebrowser/database.db",
     "root": "/etc/filebrowser/"
 }
 		EOF
