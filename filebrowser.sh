@@ -67,23 +67,12 @@ WantedBy=multi-user.target
 		mkdir -p /etc/filebrowser
 		cat >/etc/filebrowser/filebrowser.json <<-EOF
 {
-  "port": 9184,
-  "noAuth": false,
-  "baseURL": "",
-  "address": "0.0.0.0",
-  "reCaptchaKey": "",
-  "reCaptchaSecret": "",
-  "database": "/etc/filebrowser/database.db",
-  "log": "stdout",
-  "plugin": "",
-  "scope": "/etc/filebrowser/",
-  "allowCommands": true,
-  "allowEdit": true,
-  "allowNew": true,
-  "commands": [
-    "git",
-    "svn"
-  ]
+    "port": 9184,
+    "baseURL": "",
+    "address": "",
+    "log": "stdout",
+    "database": "/etc/filebrowser/asdfasdf.db",
+    "root": "/etc/filebrowser/"
 }
 		EOF
 
