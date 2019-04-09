@@ -69,7 +69,7 @@ WantedBy=multi-user.target
 {
   "port": 9184,
   "noAuth": false,
-  "baseURL": "/233blog",
+  "baseURL": "",
   "address": "0.0.0.0",
   "reCaptchaKey": "",
   "reCaptchaSecret": "",
@@ -95,7 +95,7 @@ WantedBy=multi-user.target
 		echo -e "
 		Filebrowser 安装完成啦！
 
-		预览地址: ${yellow}http://${ip}:9184/233blog$none
+		预览地址: ${yellow}http://${ip}:9184/$none
 
 		用户名: ${green}admin$none
 
